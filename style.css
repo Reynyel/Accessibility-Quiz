@@ -54,3 +54,8 @@ h2{
     white-space: nowrap;
     border: 0;
 }
+
+/*prevents unnecessary repetition*/
+p::before{
+    content:"Question #"
+}
