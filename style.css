@@ -80,6 +80,25 @@ p::before{
     content:"Question #"
 }
 
+h2{ /*Replace top margin with top padding*/
+    border-bottom: 4px solid #dfdfe2;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.info{ /*add padding to info*/
+    padding: 10px 0 0 5px;
+}
+
+.formrow{ /*add value to left and right padding, as well as top margin*/
+    padding: 0 15px ;
+    margin: 30px 0;
+}
+
+input{ /*increase the font size of input elements*/
+    font-size: 16px;
+}
+
 nav li{
     color: #dfdfe2;
     margin: 0 0.2rem;
