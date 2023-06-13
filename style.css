@@ -42,7 +42,11 @@ nav{
 nav > ul{
     display: flex;
     justify-content: space-evenly;
-    
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
 }
 
 h1,h2{
@@ -63,6 +67,12 @@ h2{
     clip: rect(0,0,0,0);
     white-space: nowrap;
     border: 0;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
 }
 
 /*prevents unnecessary repetition*/
